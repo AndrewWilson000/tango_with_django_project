@@ -13,6 +13,7 @@
         </div>
         <div>
         {% if category %}
+            <h2><a href="/rango/category/<slug:category_name_slug>/add_page/">Add Page</a></h2>
             <h1>{{ category.name }}</h1>
             {% if pages %}
             <ul>
